@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Testing on ChromeBrowser">
+	<parameter name="browser" value="Chrome"></parameter>
+	<classes>
+		<class name="amazonteztng.bubuTest"></class>
+	</classes>
+	
+  </test> <!-- task -->
+  
+   <test thread-count="5" name="Testing on EdgeBrowser">
+	<parameter name="browser" value="Edge"></parameter>
+	<classes>
+		<class name="amazonteztng"></class>
+	</classes>
+	
+  </test> <!-- task -->
+  
+   <test thread-count="5" name="Testing on Firefox">
+	<parameter name="browser" value="Firefox"></parameter>
+	<classes>
+		<class name="amazonteztng"></class>
+	</classes>
+	
+  </test> <!-- task -->
+</suite> <!-- Suite -->

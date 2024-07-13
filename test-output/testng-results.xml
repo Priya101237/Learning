@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-23T19:34:17 IST" name="Default suite" finished-at="2024-06-23T19:34:28 IST" duration-ms="10572">
+    <groups>
+    </groups>
+    <test started-at="2024-06-23T19:34:17 IST" name="Default test" finished-at="2024-06-23T19:34:28 IST" duration-ms="10572">
+      <class name="interviewqs.NewTest">
+        <test-method signature="scenarios()[pri:0, instance:interviewqs.NewTest@9d5509a]" started-at="2024-06-23T19:34:18 IST" name="scenarios" finished-at="2024-06-23T19:34:24 IST" duration-ms="6291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenarios -->
+        <test-method signature="scenarios()[pri:0, instance:interviewqs.NewTest@9d5509a]" started-at="2024-06-23T19:34:18 IST" name="scenarios" finished-at="2024-06-23T19:34:24 IST" duration-ms="6355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenarios -->
+        <test-method signature="scenarios()[pri:0, instance:interviewqs.NewTest@9d5509a]" started-at="2024-06-23T19:34:24 IST" name="scenarios" finished-at="2024-06-23T19:34:28 IST" duration-ms="4193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenarios -->
+      </class> <!-- interviewqs.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
